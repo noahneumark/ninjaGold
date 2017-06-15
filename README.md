@@ -1,0 +1,2 @@
+# ninjaGold
+A simple gambling app written with Python Django framework and SQLite.  A user can click on the various buttons, and it generates a random value that gets added to their score.  Clicking on the casino button gives the user a 50/50 chance of losing gold, but with a chance of larger winnings.  Every time a button is pressed, the data is added to a log window, which also displays the Datetime it was pressed.  The app includes a reset button that initializes the game.
