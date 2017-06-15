@@ -1,0 +1,65 @@
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  background: rgba(59, 226, 255, 0.64)
+}
+
+h1 {
+  color: gold;
+  text-shadow: 0 2px 2px black;
+}
+
+span {
+  border: 5px solid black;
+  padding: 5px;
+  background: yellow;
+}
+
+#gold {
+  display: inline-block;
+}
+
+#activities {
+  border: 5px solid black;
+  height: 300px;
+  padding: 0 0 0 15px;
+  background: yellow;
+  overflow-y: scroll;
+
+}
+
+#activities::-webkit-scrollbar{
+  width:16px;
+  background-color: rgb(204, 177, 0);
+}
+
+#activities::-webkit-scrollbar-thumb{
+background-color:rgb(122, 106, 1);
+border:1px solid rgb(73, 63, 3);
+}
+
+.place {
+  border: 5px solid black;
+  height: 150px;
+  width: 200px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  background: yellow;
+}
+
+#places {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.black {
+  color: black;
+}
